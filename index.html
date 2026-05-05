@@ -9,7 +9,7 @@
 <style>
   * {
     box-sizing: border-box;
-    -webkit-tap-highlight-color: transparent; /* Biar ga ada kotak biru pas di klik di HP */
+    -webkit-tap-highlight-color: transparent;
   }
   html, body {
     width: 100%;
@@ -62,7 +62,6 @@
     color: #4a0e2e;
   }
 
-  /* STYLE UNTUK DESKRIPSI CERITA LAGU */
   .track-description {
     font-size: 0.85rem;
     color: #6b4a5e;
@@ -73,14 +72,14 @@
     padding-top: 8px;
   }
 
-  /* Perbaikan Iframe agar tidak kepotong di HP kecil */
+  /* FIX RATA BAWAH: Background disamakan dengan hitam Spotify */
   .spotify-container {
     border-radius: 12px;
     overflow: hidden;
     max-width: 90%;
     margin: 20px auto;
-    background: #000; /* Background hitam biar transisi loading smooth */
-    min-height: 152px; /* Tinggi minimal biar ga lompat pas loading */
+    background: #282828; /* Warna hitam asli Spotify */
+    line-height: 0; /* Menghilangkan gap putih di bawah iframe */
   }
 </style>
 </head>
@@ -219,17 +218,17 @@
   </div>
 </div>
 
-<!-- SECTION 6 - SPOTIFY EMBED (OPTIMIZED FOR MOBILE) -->
+<!-- SECTION 6 - SPOTIFY EMBED (OPTIMIZED & FIXED) -->
 <div class="spotify-section">
   <div class="spotify-container">
     <iframe 
-      src="https://open.spotify.com/embed/playlist/2jn5XICqhx1QyemXp0dUeO?utm_source=generator" 
+      src="https://open.spotify.com/embed/playlist/2jn5XICqhx1QyemXp0dUeO?utm_source=generator&theme=0" 
       width="100%" 
       height="352" 
       frameBorder="0" 
       allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" 
       loading="lazy"
-      style="border-radius:12px;">
+      style="border-radius:12px; display: block;">
     </iframe>
   </div>
 </div>
