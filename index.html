@@ -35,7 +35,7 @@
       0 0 60px 25px rgba(214, 141, 201, 0.3);  
   }
 
-  /* EFEK GLASSMORPHISM PADA BADGE */
+  /* BADGE */
   .badge {
     display: inline-flex;
     align-items: center;
@@ -48,12 +48,21 @@
     padding: 6px 16px;
     font-size: 11px;
     font-weight: 800;
-    color: #d15b9b;
+    color: #ff1a8c; 
     letter-spacing: 2px;
     text-transform: uppercase;
     margin-bottom: 14px;
   }
 
+  /* UKURAN IKON ♪ BIAR SAMA KEK BINTANG */
+  .love-icon {
+    font-size: 1.1rem !important; /* Ukuran disamakan dengan bintang */
+    font-weight: normal !important;
+    min-width: 25px;
+    text-align: center;
+  }
+
+  /* JUDUL PLAYLIST */
   .track-title {
     font-weight: 800 !important;
     display: block !important;
@@ -68,18 +77,17 @@
     margin-top: 10px;
     line-height: 1.4;
     font-style: italic;
-    border-top: 1px dashed rgba(209, 91, 155, 0.2);
+    border-top: 1px dashed rgba(255, 26, 140, 0.2);
     padding-top: 8px;
   }
 
-  /* FIX RATA BAWAH: Background disamakan dengan hitam Spotify */
   .spotify-container {
     border-radius: 12px;
     overflow: hidden;
     max-width: 90%;
     margin: 20px auto;
-    background: #282828; /* Warna hitam asli Spotify */
-    line-height: 0; /* Menghilangkan gap putih di bawah iframe */
+    background: #282828; 
+    line-height: 0; 
   }
 </style>
 </head>
@@ -88,17 +96,17 @@
 <!-- HERO -->
 <div class="hero">
   <div class="photo-frame">
-    <img src="laya d.jpeg" alt="Foto Laya" style="width: 100%; height: 100%; object-fit: cover;">
+    <img src="laya (2).jpg" alt="Foto Laya" style="width: 100%; height: 100%; object-fit: cover;">
   </div>
   
   <div class="badge">HAPPY 20TH BIRTHDAY</div>
-  <h1>Selamat Ulang Tahun<br> Yang Ke-20 Laya Dwi Garini ♡</h1>
-  <p class="hero-desc">Hari ini kamu resmi 20 tahun dan aku pengen ngasih sesuatu hal kecil, tapi aku harap kamu seneng liatnya...</p>
+  <h1>Selamat Ulang Tahun<br> Yang Ke-20 Laya Dwi Garini ✦</h1>
+  <p class="hero-desc"> Asikk resmi 20 tahun disini aku pengen ngasih sesuatu hal kecil, tapi aku harap kamu seneng liatnya...</p>
 </div>
 
 <!-- SECTION 1 - INTRO + KARTU -->
 <div class="section">
-  <p class="section-intro">Ulang tahun ke-20 kamu itu momen yang kerasa spesial banget buat aku. Di sini aku kumpulin sedikit hal tentangmu dan tentang rasa syukurku karena bisa nemenin kamu sejauh ini.</p>
+  <p class="section-intro">Ulang tahun ke-20 kamu itu momen yang kerasa spesial pasti terutama buat kamu sendiri. Di sini aku kumpulin sedikit hal tentangmu dan tentang rasa syukurku karena bisa menjadi teman kamu sejauh ini.</p>
 
   <div class="pill-label">Halaman baru: 20 Tahun</div>
   <div class="card">
@@ -120,57 +128,57 @@
   </div>
 </div>
 
-<!-- SECTION 2 - LIST HAL YANG DISUKA -->
+<!-- SECTION 2 - LIST APRESIASI (UKURAN FIX) -->
 <div class="section">
-  <p class="section-intro">Di Usia 20 tahun ini, ada banyak banget hal tentang kamu yang bikin aku tuh suka sama kamu, dan merasa bersyukur bisa kenal dan deket sama kamu.</p>
-  <div class="sub-title">♡</div>
+  <p class="section-intro">Di Usia 20 tahun ini, ada banyak hal tentang kamu yang bikin aku kagum, dan aku bersyukur bisa kenal kamu.</p>
+  <div class="sub-title" style="color: #ff1a8c; font-size: 1.5rem;"></div>
 
   <div class="love-item">
-    <div class="love-icon">♡</div>
+    <div class="love-icon" style="color: #ff1a8c;">♪</div>
     <p>Cara kamu jadi versi kamu sendiri tanpa pura-pura di depan orang lain.</p>
   </div>
   <div class="love-item">
-    <div class="love-icon">♡</div>
-    <p>cara kamu melakukan aku menurut aku lebih dari temen, alias baikk bgtt</p>
+    <div class="love-icon" style="color: #ff1a8c;">♪</div>
+    <p>Cara kamu melakukan aku menurut aku lebih dari temen, alias baikk bgtt</p>
   </div>
   <div class="love-item">
-    <div class="love-icon">♡</div>
+    <div class="love-icon" style="color: #ff1a8c;">♪</div>
     <p>Cara kamu ngehargain hal-hal kecil yang orang lain sering lewatin.</p>
   </div>
   <div class="love-item">
-    <div class="love-icon">♡</div>
-    <p>Dari cara kamu bercanda, ngobrol, cerita aku tuh kaya nyaman aj rasanya, dan merasa di dengerin gitu.</p>
+    <div class="love-icon" style="color: #ff1a8c;">♪</div>
+    <p>Dari cara kamu bercanda, ngobrol, cerita aku tuh kaya nyaman aj rasanya, dan merasa seneng aja gitu.</p>
   </div>
   <div class="love-item">
-    <div class="love-icon">♡</div>
-    <p>Fakta bahwa di umur kamu yang sekarang ini, kamu udah sejauh ini berjuang tapi tetap bisa senyum itu kerenn.</p>
+    <div class="love-icon" style="color: #ff1a8c;">♪</div>
+    <p>Terima kasih ya sudah jadi teman yang luar biasa dan selalu ada buat berbagi cerita.</p>
   </div>
 </div>
 
 <!-- SECTION 3 - JANJI -->
 <div class="section">
-  <p class="section-intro">Janji Kecil di Usia 20</p>
-  <p class="section-intro">Disini aku mau nitip beberapa pesan dan janji yang semoga bikin kamu ngerasa lebih nyaman dan lebih dirangkul.</p>
+  <p class="section-intro" style="font-weight: 700; color: #ff1a8c;">Janji kecil di usia 20</p>
+  <p class="section-intro">Disini aku mau nitip beberapa pesan dan janji yang semoga bikin kamu ngerasa lebih nyaman.</p>
 
   <div class="promise-item">
-    <div class="promise-diamond">✦</div>
+    <div class="promise-diamond" style="color: #ff1a8c;">✦</div>
     <p>Aku janji selalu support kamu dari yang kamu ngejar hal-hal yang kamu mau di usia 20 ini dan seterusnya.</p>
   </div>
   <div class="promise-item">
-    <div class="promise-diamond">✦</div>
-    <p>Aku janji bakal jadi pendengar yang baik yang selalu bisa diajak cerita, bahkan buat hal-hal kecil yang keliatannya sepele.</p>
+    <div class="promise-diamond" style="color: #ff1a8c;">✦</div>
+    <p>Aku bakal berusaha jadi pendengar yang baik yang selalu bisa diajak cerita, bahkan buat hal-hal kecil yang keliatannya sepele.</p>
   </div>
   <div class="promise-item">
-    <div class="promise-diamond">✦</div>
+    <div class="promise-diamond" style="color: #ff1a8c;">✦</div>
     <p>Aku janji bakal terus ngingetin kamu kalau kamu merasa cukup, bahkan di hari-hari kamu ngerasa ga sehebat itu.</p>
   </div>
   <div class="promise-item">
-    <div class="promise-diamond">✦</div>
+    <div class="promise-diamond" style="color: #ff1a8c;">✦</div>
     <p>Aku janji bakal nyemangatin kamu waktu capek, dan nemenin kamu waktu kamu lagi ngerasa sendiri</p>
   </div>
   <div class="promise-item">
-    <div class="promise-diamond">✦</div>
-    <p>Dan yang terakhir pesan aku, plis jauhin orang yang bikin kamu cape dan stress ya Layy, kamu berhak di hargain & di apresiasi.</p>
+    <div class="promise-diamond" style="color: #ff1a8c;">✦</div>
+    <p>Ingat ya Lay, lingkungan yang sehat itu kunci. Jauhin yang bikin capek hati, karena kamu berhak banget buat selalu merasa dihargai dan bahagia</p>
   </div>
 </div>
 
@@ -178,47 +186,47 @@
 <div class="serious-section">
   <h2>Ucapan Yang Sesungguhnya</h2>
   <div class="serious-card">
-    <p>Terima Kasih sudah jadi kamu selama ini, dengan semua versi kamu: yang lagi seneng, lagi sedih, lagi cape, lagi heboh, semuanya.</p>
-    <p>Di umur 20 ini, aku cuma pingin kamu tahu kalau ada seseorang di sini yang bener-bener care sama kamu dan bangga sama atas pencapaian kamu apapun itu. dan terimakasih juga udah jadi temen aku yang baikk bangett aku bersyukur kenal kamu, intinya tetep bahagia selalu ya lay...</p>
-    <div class="closing">Selamat ulang tahun yang ke-20 ya, Semoga tahun ini jadi tahun yang berkesan buat kamu. ♡</div>
+    <p>Makasih ya udah bertahan sampai sekarang dengan segala versi kamu : yang lagi happy,capek,heboh,atau bahkan lagi sedih-sedihnya.</p>
+    <p>Di umur 20 ini, aku cuma mau kamu tahu kalau aku beneran bangga sama semua yang udah kamu lewatin, Makasih udah jadi temen yang asik banget buat aku,aku ga nyesel sama sekali bisa kenal sama kamu. tetep jadi Laya yang apa adanya ya.</p>
+    <div class="closing">Selamat ulang tahun yang ke-20 ya, Semoga tahun ini jadi tahun yang berkesan buat kamu. 🦋</div>
   </div>
 </div>
 
 <!-- SECTION 5 - PLAYLIST DESKRIPSI -->
 <div class="playlist-section">
   <p class="section-intro">ini ada sedikit kumpulan lagu-lagu yang menggambarkan tentang kamu (menurut aku)</p>
-  <div class="sub-title">My Playlist</div>
+  <div class="sub-title" style="color: #ff1a8c;">My Playlist</div>
 
   <div class="track-card">
     <div class="track-num">Track 1</div>
     <div class="track-title">You!</div>
     <div class="track-song">Lany</div>
-    <div class="track-description">Lagu ini aku pilih karena lagunya tuh gantengg banget dan artinya tuh bikin senyum" sendiri.</div>
+    <div class="track-description">Lagu ini aku pilih karena lagunya tuh maniss banget apalagi liriknya, intinya menggambarkan kamu banget dah HAHA.</div>
   </div>
 
   <div class="track-card">
     <div class="track-num">Track 2</div>
     <div class="track-title">Just The Way You Are</div>
     <div class="track-song">Bruno Mars</div>
-    <div class="track-description">Kalau lagu ini tuh mencerminkan kekaguman murni, cinta tanpa syarat (kaya aku ke kamu HAHA)</div>
+    <div class="track-description"> And When you smile, the whole world stops and stares for a while cause you're amazing just the way you are.. (hehe)</div>
   </div>
 
   <div class="track-card">
     <div class="track-num">Track 3</div>
     <div class="track-title">My Love</div>
     <div class="track-song">Westlife</div>
-    <div class="track-description"> Kalau ini tuh kaya menggambarkan kerinduan yang mendalam, dan kesetiaan</div>
+    <div class="track-description">Lagu lama sih tapi dalem banget, liriknya tuh beneran kayak lagi nyariin kamu terus.</div>
   </div>
 
   <div class="track-card">
     <div class="track-num">Track 4</div>
     <div class="track-title">About You</div>
     <div class="track-song">The 1975</div>
-    <div class="track-description">Yap Sesuai Judul "About You" yang artinya "tentang kamu" hehe</div>
+    <div class="track-description">Yap Sesuai Judul aja ini mah "About You" yang artinya "tentang kamu" hehe.</div>
   </div>
 </div>
 
-<!-- SECTION 6 - SPOTIFY EMBED (OPTIMIZED & FIXED) -->
+<!-- SECTION 6 - SPOTIFY EMBED -->
 <div class="spotify-section">
   <div class="spotify-container">
     <iframe 
@@ -235,9 +243,9 @@
 
 <!-- SECTION 7 - PENUTUP -->
 <div class="final-section">
-  <p class="final-note">Makasih ya udah mau baca sampai habis..</p>
-  <p class="final-title">Sekali lagi, selamat ulang tahun yang ke-20 Laya</p>
-  <button class="hug-btn" onclick="showHug()">Next</button>
+  <p class="final-note">Makasih ya udah mau baca sampai habis, bahagia selalu yaa cantik..</p>
+  <p class="final-title">And once again, selamat ulang tahun yang ke-20 Layaa!!</p>
+  <button class="hug-btn" style="background: #ff1a8c;" onclick="showHug()">Next</button>
 </div>
 
 <div class="hug-overlay" id="hugOverlay" onclick="hideHug()">
