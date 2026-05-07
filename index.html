@@ -54,21 +54,30 @@
     margin-bottom: 14px;
   }
 
-  /* CSS GALERI BARU: 3 FOTO KOTAK RAPI */
+  /* CSS GALERI RESPONSIVE: BIAR DI HP GAK KEKECILAN */
   .gallery-grid {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 10px;
+    /* Default HP: 2 kolom biar fotonya gede & jelas */
+    grid-template-columns: repeat(2, 1fr); 
+    gap: 12px;
     margin: 20px auto;
-    max-width: 95%;
+    width: 90%;
+  }
+
+  /* Kalo layar laptop, baru jadi 3 kolom sebaris */
+  @media (min-width: 768px) {
+    .gallery-grid {
+      grid-template-columns: repeat(3, 1fr);
+      max-width: 800px;
+    }
   }
 
   .gallery-item {
-    border-radius: 12px;
+    border-radius: 15px;
     overflow: hidden;
-    border: 2px solid #fff;
-    box-shadow: 0 4px 10px rgba(255, 26, 140, 0.1);
-    aspect-ratio: 1 / 1; /* Biar fotonya kotak sempurna */
+    border: 3px solid #fff;
+    box-shadow: 0 5px 15px rgba(255, 26, 140, 0.1);
+    aspect-ratio: 3 / 4; /* Portrait estetik, gak kotak kaku */
   }
 
   .gallery-item img {
